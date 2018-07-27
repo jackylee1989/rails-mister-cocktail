@@ -1,0 +1,16 @@
+<div class="wrapper show-padding dose-backgroud">
+  <div class="container" class="home-banner">
+    <div class="row" >
+      <div class="col-sm-6 col-sm-offset-3 background-white">
+        <h2>Add a new dose</h2>
+        <%= simple_form_for [@cocktail, @dose] do |f| %>
+          <%= f.label :name %>
+          <%= f.text_field :description %>
+          <%= f.submit %>
+          <br>
+          <%= link_to 'Back', cocktails_path %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<div class="wrapper show-padding background">
+  <div class="container" class="home-banner">
+    <div class="row" >
+      <div class="col-sm-6 col-sm-offset-3 background-white">
+        <h2>Add a new cocktail</h2>
+        <%= simple_form_for (@cocktail) do |f| %>
+          <%= f.input :name, placeholder: "e.g. Old Fashioned", hint: "this is required" %>
+          <%= f.submit %>
+          <br>
+          <%= link_to 'Back', cocktails_path %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

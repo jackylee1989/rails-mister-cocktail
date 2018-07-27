@@ -1,0 +1,148 @@
+<div class="home-banner home-banner-font-size">
+  <p>Cocktails</p>
+  <br>
+  <h2><span id="banner-typed-text"></span></h2>
+</div>
+
+<!-- <div class="container" class="home-banner">
+  <div class="row">
+    <br>
+      <% @cocktails.each do |cocktail| %>
+        <div class="col-sm-3 col-sm-offset-3">
+          <%= render 'shared/card', cocktail: cocktail %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<br> -->
+
+<div class="wrapper">
+  <h1 class="text-middle">
+    <strong>Top 12 most famous cocktails</strong>
+  </h1>
+  <div class="container wrapper">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://assets.bonappetit.com/photos/58409ff731e0aa8a6cd383f8/16:9/w_1200,c_limit/bas-best-old-fashioned.jpg');">
+          <div class="card-description">
+            <h2><%= @cocktails[0].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/1" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.saveur.com/sites/saveur.com/files/styles/1000_1x_/public/images/2015/08/martinez-cocktail_2000x1500.jpg?itok=8DozuCxk');">
+          <div class="card-description">
+            <h2><%= @cocktails[1].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/2" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://images.food52.com/7jMWeESkus1iiD1JsvGJn6pWs04=/753x502/33b2dfca-6526-4000-afaa-f972120729bd--food52_10-31-12-4869.jpg');">
+          <div class="card-description">
+            <h2><%= @cocktails[2].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/3" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfazWafDEEt_fNvS7Vy7phkZfEXiE19fCUZJwn-SDBU0Qt-WZN');">
+          <div class="card-description">
+            <h2><%= @cocktails[3].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/4" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://1w0eqx36klwk3lol8s1na5ig-wpengine.netdna-ssl.com/wp-content/uploads/2015/12/1b704711-a9ae-4e13-8457-add30e524f38-1024x686.png');">
+          <div class="card-description">
+            <h2><%= @cocktails[4].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/5" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://assets.punchdrink.com/wp-content/uploads/2013/06/Article-Easy-Frozen-Daiquiri-Cocktail-Recipe.jpg');">
+          <div class="card-description">
+            <h2><%= @cocktails[5].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/6" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://www.seriouseats.com/recipes/images/2015/04/20150323-cocktails-vicky-wasik-margarita-1500x1125.jpg');">
+          <div class="card-description">
+            <h2><%= @cocktails[6].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/7" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://upload.wikimedia.org/wikipedia/commons/1/11/Sidecar_Cocktail.jpg');">
+          <div class="card-description">
+            <h2><%= @cocktails[7].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/8" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://media.thereal.com/2018/02/23/french-75-cocktail-recipe-750x460.jpg');">
+          <div class="card-description">
+            <h2><%= @cocktails[8].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/9" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/64/49/00f7f3R7yw6kVZvICjhQ_bloody%20mary%20(3%20of%204).jpg');">
+          <div class="card-description">
+            <h2><%= @cocktails[9].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/10" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://static1.squarespace.com/static/540613c2e4b07e03b0f080e9/t/5b098ce1f950b7b034e1a659/1528066841073/DEAD_RABBIT_IRISH_COFFEE_WESTON_TABLE.JPG');">
+          <div class="card-description">
+            <h2><%= @cocktails[10].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+          <a class="card-link" href="cocktails/11" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <!-- insert <div class="card"> -->
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://i2.wp.com/www.foodrepublic.com/wp-content/uploads/2014/08/2014-08-26-06.30.59-1.jpg?fit=2000%2C1333');">
+          <div class="card-description">
+            <h2><%= @cocktails[11].name %></h2>
+            <p>Very cool, the best</p>
+          </div>
+        </div>
+        <a class="card-link" href="cocktails/12" ></a>
+      </div>
+    </div>
+  </div>
+</div>

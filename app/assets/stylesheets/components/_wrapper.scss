@@ -1,0 +1,41 @@
+.wrapper {
+  padding: 20px;
+}
+
+.text-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-padding {
+  padding-top: 70px;
+}
+
+
+.show-padding {
+  padding-top: 70px;
+}
+
+.background {
+  background-image: url("https://images.unsplash.com/photo-1424591093900-514bab956faf?ixlib=rb-0.3.5&s=bff4ac5b95c67dd32bdc2c15605a3bd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 25vh;
+}
+
+.dose-backgroud {
+  background-image: url("https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1d992c355cbbe3f02ddc5f762f2ada73&auto=format&fit=crop&w=1400&q=80");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 25vh;
+}
+
+.background-white {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+
+}
